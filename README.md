@@ -19,6 +19,7 @@ npm start
 
 ## Usage
 An example on how to use this project can be found in the [src/index.ts](https://github.com/Auxority/funcaptcha-resolver/blob/main/src/index.ts) file.
+
 And here's a demo: https://streamable.com/zi6g8t
 
 ## License
