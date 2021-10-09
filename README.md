@@ -18,7 +18,7 @@ npm start
 ```
 
 ## Usage
-An example on how to use this project can be found in the src/index.ts file.
+An example on how to use this project can be found in the [src/index.ts](https://github.com/Auxority/funcaptcha-resolver/blob/main/src/index.ts) file.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
