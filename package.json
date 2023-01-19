@@ -3,10 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "description": "A funcaptcha resolver, so users can solve funcaptchas in other applications.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "start:dev": "ts-node-dev ./index.ts",
-    "start": "tsc && node ./lib/index.js"
+    "start:dev": "ts-node-dev .",
+    "start": "tsc && node ."
   },
   "author": "auxority",
   "license": "ISC",

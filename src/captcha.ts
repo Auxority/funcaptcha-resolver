@@ -176,6 +176,7 @@ export default class Captcha {
     }
 
     private getVerifyParameters(captchaPage: string): URLSearchParams {
+        console.log(captchaPage);
         const sessionToken = CaptchaPageFinder.sessionToken(captchaPage);
         const gameToken = CaptchaPageFinder.gameToken(captchaPage);
         const state = CaptchaPageFinder.state(captchaPage);
@@ -189,6 +190,7 @@ export default class Captcha {
                 "state": state
             });
         }
+        console.log(sessionToken, gameToken, state);
         throw new Error("Unable to find one of the verify parameters.");
     }
 
